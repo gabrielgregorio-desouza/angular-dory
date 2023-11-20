@@ -18,9 +18,7 @@ export class CursoNovoComponent implements OnInit {
     private router: Router
   ) { }
 
-  ngOnInit(): void {
-  }
-
+ 
   salvar() {
     this.cursoService.createEntidade(this.curso)
     .subscribe(
