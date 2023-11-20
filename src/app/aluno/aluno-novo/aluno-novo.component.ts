@@ -20,8 +20,7 @@ export class AlunoNovoComponent implements OnInit {
     public datepipe: DatePipe
   ) { }
 
-  ngOnInit(): void {
-  }
+
 
   salvar() {
     this.convertDate();
