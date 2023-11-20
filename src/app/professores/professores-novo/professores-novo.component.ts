@@ -15,9 +15,7 @@ export class ProfessoresNovoComponent implements OnInit {
     private professorService: ProfessorService,
     private router: Router,
   ) { }
-  ngOnInit(): void {
-  }
-
+  
   salvar() {
     this.professorService.createEntidade(this.professor)
     .subscribe(
