@@ -9,9 +9,6 @@ export class ConfirmacaoComponent implements OnInit {
     
   message: string;
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  
 
 }
